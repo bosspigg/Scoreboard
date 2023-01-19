@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+
+}
+
+.container {
+    background-color: #1B244A;
+    max-width: 575px;
+    display: flex;
+    justify-content: space-around;
+    margin: 15%;
+    border-radius: 10px;
+    padding-bottom: 5%;
+}
+
+h3 {
+    color: #EEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 4ch;
+    text-align: center;
+}
+h1 {
+    color: #F94F6D;
+    text-align: right;
+    padding: 5% 7% 5% 0;
+    font-size: 9ch;
+}
+.score-box {
+    background-color: #080001;
+    width: 155px;
+}
+#add-pnts {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20%;
+}
+button {
+    background: none;
+    color: #9AABD8;
+    font-size: 18px;
+    border: 1px #9AABD8 solid;
+    border-radius: 5px;
+    padding: 5%;
+}
